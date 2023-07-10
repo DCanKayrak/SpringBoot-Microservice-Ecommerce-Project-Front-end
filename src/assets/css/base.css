@@ -1,0 +1,156 @@
+:root {
+    --primaryColor : #03484D;
+    --secondaryColor : #0E3B3E;
+    --thirdColor : #C2C2C2;
+    --gray : #B6B6B6;
+    --white : #FFFFFF;
+    --smokeWhite : #E3E6E6;
+    --upperFooter : #393939;
+    --footer : #161616;
+    --yellow : #FFF7CA;
+    --yellow2 : #e7dfae;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    color: var(--white);
+    font-family: "Quicksand",sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav {
+    width: 33%;
+}
+.nav-input {
+    width: 100%;
+    height: 2rem;
+    border-radius: 0.5rem;
+    border: var(--secondaryColor) 2px solid;
+    color: #393939;
+    padding: 2px;
+    font-size: larger;
+}
+
+.nav-mid {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-mid-item {
+    display: flex;
+    align-items: center;
+}
+
+.nav-mid-item>span {
+    padding-left: 2rem;
+}
+
+.nav-belt {
+    background-color: var(--primaryColor);
+    padding: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: yellowgreen 2px solid;
+}
+
+.nav-tools {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-tool {
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+.nav-tool:hover {
+    background-color: var(--secondaryColor);
+}
+
+.cat-belt {
+    background-color: var(--secondaryColor);
+    justify-content: space-between;
+    padding: 0.5rem;
+    display: flex;
+    border-bottom: orange 5px solid;
+}
+
+.cat-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cat-left {
+    width: 77%;
+}
+
+.cat-link:hover {
+    background-color: var(--yellow2);
+    border-radius: 0.25rem;
+    padding: 3px;
+}
+
+.nav-link span:hover {
+    color: aqua;
+}
+
+.sale-section-container {
+    background-color: var(--yellow);
+    height: 70vh;
+    margin-bottom: 3rem;
+}
+
+.categories-section-container {
+    background-color: var(--smokeWhite);
+    height: 50vh;
+}
+
+/* SLIDER */
+.slider-text {
+    color: var(--footer);
+}
+
+.slider-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.slider-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* SALE SECTİON */
+
+.sale-section-container{
+    padding: 5px;
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+.sale-col {
+    margin-top: 5rem;
+    background-color: var(--smokeWhite);
+    width: 20%;
+}
+
+.sale-col p {
+    margin-top: 3rem;
+    margin-left: 3rem;
+    font-size: larger;
+    color: #161616 ;
+}
