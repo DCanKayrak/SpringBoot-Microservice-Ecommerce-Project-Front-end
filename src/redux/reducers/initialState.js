@@ -1,4 +1,8 @@
 export default{
     products:[],
-    categories:[]
+    product:{},
+    categories:[],
+    category:[],
+    cart:[],
+    addToCart:{},
 }

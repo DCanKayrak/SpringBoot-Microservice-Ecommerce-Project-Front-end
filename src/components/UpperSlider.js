@@ -5,6 +5,7 @@ import * as productActions from '../redux/actions/productActions';
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
+import { Link } from 'react-router-dom';
 
 class MainSlider extends Component {
     componentDidMount() {
@@ -16,17 +17,19 @@ class MainSlider extends Component {
             <div>
                 <Swiper
                     modules={[Navigation, Pagination, Scrollbar, A11y]}
-                    spaceBetween={20}
-                    slidesPerView={4}
+                    spaceBetween={5}
+                    slidesPerView={10}
                     onSlideChange={() => console.log('slide change')}
                     onSwiper={(swiper) => console.log(swiper)}
                 >
 
                     {
                         this.props.products.map(product => (
-                            <SwiperSlide className='slider-slide'>
-                                <a href={product.slug}><img className='slider-image' src={product.imageUrl}></img></a>
-                                <p className='slider-text'>{product.name}</p>
+                            
+                            <SwiperSlide>
+                                <div className='slider-container'>
+                                <a href={"/product/"+product.slug}><img className='slider-image' src={product.imageUrl}></img></a>
+                                </div>
                             </SwiperSlide>
                         ))
                     }

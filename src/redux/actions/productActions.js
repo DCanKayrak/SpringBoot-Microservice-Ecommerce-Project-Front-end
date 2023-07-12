@@ -10,6 +10,8 @@ function getProductsSuccess(products){
 export function getProducts(){
     return function(dispatch){
         let url = "/api/v1/products"
+        
+
 
         fetch(url)
         .then(res => res.json())
