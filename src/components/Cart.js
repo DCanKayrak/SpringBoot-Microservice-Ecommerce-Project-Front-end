@@ -18,7 +18,7 @@ class Cart extends Component {
     <div>
         {
             this.props.products.map( product => (
-                <p className='text-black'>{product.name}</p>
+                <p className='text-black'>{product.product.name} - {product.quantity}</p>
             ))
         }
     </div>
