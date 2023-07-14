@@ -4,6 +4,7 @@ import categoryReducer from "./categoryReducer";
 import productDetailsReducer from './productDetailsReducer';
 import productCartReducer from './productCartReducer';
 import addToCartReducer from "./addToCartReducer";
+import categorySecReducer from './categorySecReducer';
 
 const rootReducers = combineReducers({
     productReducer,
@@ -11,6 +12,7 @@ const rootReducers = combineReducers({
     categoryReducer,
     productCartReducer,
     addToCartReducer,
+    categorySecReducer
 });
 
 export default rootReducers;

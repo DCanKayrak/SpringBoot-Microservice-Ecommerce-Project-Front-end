@@ -4,14 +4,17 @@ import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import logo from '../assets/images/logo.png';
 import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 class Navbar extends Component {
+
+    
 
     componentDidMount() {
         this.props.actions.getCategories();
     }
 
-    logout(){
+    handleLogout() {
         localStorage.removeItem("tokenKey");
         localStorage.removeItem("currentUser");
         localStorage.removeItem("userFirstName");
@@ -36,12 +39,19 @@ class Navbar extends Component {
                     </div>
                     <div className="nav nav-right">
                         <div className="nav-tools">
+                            {
+                                localStorage.getItem("currentUser") == null ? <span></span>:
+                                <div className='nav-tool'>
+                                <a href='/' onClick={() => this.handleLogout()}><span class="icon-lock"></span></a>
+                            </div>
+                            }
+                            
                             <div className="nav-tool">
                                 {
                                     localStorage.getItem("currentUser") == null ? <Link to="/login">
                                         <span className="icon-profile-male"></span>
                                         <span>Profile</span>
-                                    </Link> : <p>{localStorage.getItem("userFirstName")}</p>
+                                    </Link> : <p><span className="icon-profile-male"></span>{localStorage.getItem("userFirstName")}</p>
                                 }
                             </div>
                             <div className="nav-tool">
@@ -65,7 +75,7 @@ class Navbar extends Component {
                         <div class="cat-links">
                             {
                                 this.props.categories.map(category => (
-                                    <Link to={"/categories/" + category.slug}><span class="cat-link">{category.name}</span></Link>
+                                    <a href={"/categories/" + category.slug}><span class="cat-link">{category.name}</span></a>
                                 ))
                             }
                         </div>

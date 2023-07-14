@@ -7,6 +7,7 @@ import * as categoryActions from '../redux/actions/categoryActions';
 import { useParams } from 'react-router-dom';
 import { useEffect } from 'react';
 import { useNavigate } from "react-router";
+import alertify from 'alertifyjs';
 
 
 
@@ -32,6 +33,7 @@ function ProductDetails(props) {
 
     const handleAddToCart = () => {
         addToCart()
+        alertify.alert("Ürün eklendi!")
         navigate("/")
     }
 

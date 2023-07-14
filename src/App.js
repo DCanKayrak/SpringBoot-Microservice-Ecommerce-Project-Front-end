@@ -7,6 +7,8 @@ import UpperSlider from './components/UpperSlider';
 import { Route, Routes } from 'react-router-dom';
 import Register from './components/Register';
 import Cart from './components/Cart';
+import alertify from 'alertifyjs';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -14,7 +16,6 @@ function App() {
       <Navbar/>
       <UpperSlider/>
       <Routes>
-        
         <Route exact path='/' element={<HomePage/>} />
         <Route exact path='/register' element={<Register />} />
         <Route exact path='/login' element={<Login />} />
@@ -22,7 +23,7 @@ function App() {
         <Route exact path='/product/:slug' element={<ProductDetails/>}/>
         <Route exact path='/cart' element={<Cart/>}/>
       </Routes>
-      
+      <Footer/>
     </div>
   );
 }
