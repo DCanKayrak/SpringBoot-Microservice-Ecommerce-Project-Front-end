@@ -17,6 +17,9 @@ class CategoriesSection extends Component {
     render() {
         return (
             <div>
+                <div className='categories-h3'>
+                    <h3>KATEGORİLER</h3>
+                </div>
                 <div class="categories-section-container">
                     {
                         this.props.categories.map(category => (

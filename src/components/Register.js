@@ -95,7 +95,7 @@ export default function Register(props) {
                     </button>
                 </div>
                 <p class="signup">Do you have an account?
-                    <a rel="noopener noreferrer" href="/login" class="">Sign up</a>
+                    <a rel="noopener noreferrer" href="/login" class="">Sign in</a>
                 </p>
             </div>
         </div>
