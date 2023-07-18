@@ -816,3 +816,28 @@ then set the desired styles for .card-img. */
   text-underline-offset: 5px;
   text-decoration-color: #D05270;
 }
+
+.orders-container {
+  margin: 2rem;
+}
+
+.orders-header {
+  color: var(--underLine);
+  font-size: xx-large;
+  text-underline-offset: 5px;
+  text-decoration: underline;
+  margin-bottom: 2rem;
+  text-decoration-color: black;
+}
+
+.refund-button {
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 20px;
+  background-color: var(--underLine);
+  border-color: white;
+}
+
+.text-order-date {
+  color: gray;
+}
