@@ -6,10 +6,8 @@ import ProductDetails from './components/ProductDetails';
 import { Route, Routes } from 'react-router-dom';
 import Register from './components/Register';
 import Cart from './components/Cart';
-import alertify from 'alertifyjs';
 import Footer from './components/Footer';
-import MainSaleSlider from './components/MainSaleSlider';
-import UpperSlider from './components/UpperSlider';
+import Orders from './components/Orders';
 
 function App() {
   return (
@@ -22,6 +20,7 @@ function App() {
         <Route exact path='/categories/:slug' element={<Category />} />
         <Route exact path='/product/:slug' element={<ProductDetails/>}/>
         <Route exact path='/cart' element={<Cart/>}/>
+        <Route exact path='/orders' element={<Orders/>}/>
       </Routes>
       <Footer/>
     </div>

@@ -29,7 +29,7 @@ class CategoriesSection extends Component {
                                         <h3 className='text-black'>{category.name}</h3>
                                     </div>
                                     <div className='category-title-right'>
-                                        <a href={category.slug}><span className='text-black'>Kategoriye git!</span></a>
+                                        <a href={'/categories/'+category.slug}><span className='text-black'>Kategoriye git!</span></a>
                                     </div>
 
                                 </div>

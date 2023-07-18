@@ -51,7 +51,7 @@ class Navbar extends Component {
                                     localStorage.getItem("currentUser") == null ? <Link to="/login">
                                         <span className="icon-profile-male"></span>
                                         <span>Profile</span>
-                                    </Link> : <p><span className="icon-profile-male"></span>{localStorage.getItem("userFirstName")}</p>
+                                    </Link> : <a href='/orders'><span className="icon-profile-male"></span>{localStorage.getItem("userFirstName")}</a>
                                 }
                             </div>
                             <div className="nav-tool">

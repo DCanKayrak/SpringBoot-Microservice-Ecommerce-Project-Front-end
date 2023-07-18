@@ -372,7 +372,39 @@ a {
 /* CART */
 
 .cart-items-container {
+  width: 70%;
+}
+
+.cart-section-container {
+  display: flex;
+}
+
+.order-complete {
+  border: black 2px solid;
+  width: 20%;
+  height: 100%;
+  margin: 2rem;
+  padding: 2rem;
+}
+
+.order-button {
+  background-color: var(--underLine);
+  padding: 0.5rem;
+  border-radius: 10px;
+  border-color: white;
+  margin-top: 2rem;
   width: 100%;
+}
+
+.order-text {
+  color: var(--underLine);
+  margin-bottom: 0.5rem;
+  font-size: x-large;
+}
+.order-totalPrice {
+  font-size: xx-large;
+  font-weight: 600;
+  margin-top: 2rem;
 }
 
 .cart-item {

@@ -43,11 +43,11 @@ export default function Auth(props) {
                 <form class="form">
                     <div class="input-group">
                         <label for="username">Mail Address</label>
-                        <input onChange={event => setEmail(event.target.value)} type="text" name="username" id="username" placeholder="" />
+                        <input onChange={event => setEmail(event.target.value)} type="text" name="username" id="username" placeholder="" required/>
                     </div>
                     <div class="input-group">
                         <label for="password">Password</label>
-                        <input onChange={event => setPassword(event.target.value)} type="password" name="password" id="password" placeholder="" />
+                        <input onChange={event => setPassword(event.target.value)} type="password" name="password" id="password" placeholder="" required/>
                         <div class="forgot">
                             <a rel="noopener noreferrer" href="#">Forgot Password ?</a>
                         </div>
