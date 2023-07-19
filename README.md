@@ -1,72 +1,32 @@
-# SpringBoot-Microservice-Ecommerce-Project-Front-end
-React App
+# SpringBoot-Microservice-Ecommerce-Project-Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+❗Bu proje Bursa Büyükşehir Belediyesi ve Kodluyoruz işbirliğinde gerçekleştirilen 6 haftalık eğitimin bitirme projesi olarak bootcamp sürecinde öğrendiğimiz/kendimize kattığımız bilgiler ışığında geliştirilmiştir.
 
-## Available Scripts
+🎯Bu proje, springboot ile geliştirdiğim mikroservis mimarisi e-ticaret projemin frontend kısmıdır. Bu projemle birlikte Redux, hooks gibi yapıları derinlemesine inceleme ve kullanma fırsatları buldum. Birçok farklı sorunla yüzleşip hepsinin çözümlerini de bulmayı başardım. Bu projeyle birlikte sadece yukarıdaki teknolojilerde gelişmekle kalmayıp CSS'i ve CSS'in altında yatan mantığı da anlayıp gerçek bir projede nasıl kullanacağını öğrenmiş oldum.
 
-In the project directory, you can run:
+### ⚙ Kullanılan Teknolojiler
+- HTML
+- CSS
+- Javascript
+- React
+- React Hooks
+- Redux
+- Swiper Slider
+- Alertify
 
-### `npm start`
+### Projeden Alıntılar & Video
+![image](https://github.com/DCanKayrak/SpringBoot-Microservice-Ecommerce-Project/assets/94143272/bb1ac59f-c40f-4968-91e9-355230060143)
+![image](https://github.com/DCanKayrak/SpringBoot-Microservice-Ecommerce-Project/assets/94143272/83203da4-72b8-4b88-a20c-cb38a97be041)
+![image](https://github.com/DCanKayrak/SpringBoot-Microservice-Ecommerce-Project/assets/94143272/c1977a50-d803-46cd-9b9f-9b1d55ddcd0c)
+![image](https://github.com/DCanKayrak/SpringBoot-Microservice-Ecommerce-Project/assets/94143272/e95a30ae-74ae-43d5-b34f-6d70efce074b)
+![image](https://github.com/DCanKayrak/SpringBoot-Microservice-Ecommerce-Project/assets/94143272/53813d92-b946-4095-a266-d7d8cdccc8ec)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+[Video Link](https://www.youtube.com/watch?v=q2C4jaFmWdI)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### ☎️ İletişim
+---
+[Backend Projesinin Linki](https://github.com/DCanKayrak/SpringBoot-Microservice-Ecommerce-Project)
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# SpringBoot-Microservice-Ecommerce-Project-Front-end
+[Github Hesabım](https://github.com/DCanKayrak)
+[LinkedIn Hesabım](https://www.linkedin.com/in/dcankayrak/)
+[Mail Adresim](dancankan@gmail.com)
